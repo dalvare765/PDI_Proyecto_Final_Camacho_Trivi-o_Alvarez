@@ -1,0 +1,30 @@
+INSTRUCCIONES DE EJECUCIÓN
+
+1. Requisitos
+- Python 3.11 o superior.
+- Librerías de Python instaladas: torch, torchvision, ultralytics, pillow, matplotlib, seaborn, scikit-learn.
+
+2. Preparación del proyecto
+- Descarga el proyecto (.zip) y descomprímelo en una carpeta de tu preferencia.
+- Abre Visual Studio Code (o tu editor favorito).
+- En VS Code: File → Open Folder y selecciona la carpeta del proyecto.
+
+3. Archivos y rutas necesarias
+- Verifica que exista el modelo de la CNN:
+  modelos/cnn_cafeteria.pth
+- Verifica que exista el modelo de YOLO:
+  modelos/yolov8n.pt
+- Verifica la carpeta de imágenes diarias (o ajusta la ruta en gui.py):
+  C:\Users\David\Desktop\PDI_PROYECTO\fotosDiariasCafeteria
+
+4. Cómo ejecutar
+OPCIÓN A – Visual Studio Code:
+- Abre el archivo gui.py.
+- Presiona el botón Run (▶) en la parte superior de VS Code.
+
+OPCIÓN B – Terminal:
+- Abre una terminal en la carpeta del proyecto.
+- Ejecuta:
+  python gui.py
+
+Al ejecutar, se abrirá la interfaz gráfica del sistema.
